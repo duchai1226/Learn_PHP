@@ -73,20 +73,16 @@
 </head>
 
 <?php
-$a = (float) $_POST["a"];
-$b = (float) $_POST["b"];
-$x;
-$noti;
-switch ($a) {
-    case 0:
-        $noti = "a không được bằng 0";
-        break;
-    default:
-        $x = ($b * -1) / $a;
-        $noti = "Có nghiệm là " . $x;
-
+include "Lib/GiaiPTB1.php";
+$a = $_POST["a"];
+$b = $_POST["b"];
+if (!is_numeric($a) || !is_numeric($b)) {
+    $noti = "Vui lòng nhập số";
+} else {
+    $a = (float) $a;
+    $b = (float) $b;
+    $noti = giaiPTB1($a, $b);
 }
-
 ?>
 
 <body>

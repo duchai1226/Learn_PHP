@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chu_des>
+    <Chu_de ID="1" TenCD="Hoa Tươi ngày cưới">
+        <Hoa ID="1" Hinh="HoaCuoi1.jpg" Gia="500.000">Hoa cưới 1</Hoa>
+        <Hoa ID="2" Hinh="HoaCuoi2.jpg" Gia="600.000">Hoa cưới 2</Hoa>
+    </Chu_de>
+    <Chu_de ID="2" TenCD="Hoa Tươi bó">
+        <Hoa ID="3" Hinh="HoaBo1.jpg" Gia="100.000">Hoa tươi bó 1</Hoa>
+        <Hoa ID="4" Hinh="HoaBo2.jpg" Gia="200.000">Hoa tươi bó 2</Hoa>
+    </Chu_de>
+    <Chu_de ID="3" TenCD="Hoa Sinh Nhật">
+        <Hoa ID="5" Hinh="HoaSinhNhat1.jpg" Gia="250.000">Hoa sinh nhật 1</Hoa>
+        <Hoa ID="6" Hinh="HoaSinhNhat2.jpg" Gia="300.000">Hoa sinh nhật 2</Hoa>
+    </Chu_de>
+</Chu_des>
