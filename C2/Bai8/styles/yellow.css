@@ -1,0 +1,27 @@
+.menu.yellow {
+    background-color: #FF8C00; /* Màu vàng cam */
+    padding: 10px;
+}
+
+.menu.yellow ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu.yellow li {
+    display: inline;
+}
+
+.menu.yellow a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu.yellow a:hover {
+    background-color: #FFA500; /* Màu cam nhạt khi hover */
+}

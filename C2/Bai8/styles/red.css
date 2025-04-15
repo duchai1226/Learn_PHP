@@ -1,0 +1,27 @@
+.menu.red {
+    background-color: #8B0000; /* Màu đỏ đậm */
+    padding: 10px;
+}
+
+.menu.red ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu.red li {
+    display: inline;
+}
+
+.menu.red a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu.red a:hover {
+    background-color: #A52A2A; /* Màu đỏ nhạt khi hover */
+}

@@ -1,0 +1,27 @@
+.menu.blue {
+    background-color: #00008B; /* Màu xanh đậm */
+    padding: 10px;
+}
+
+.menu.blue ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu.blue li {
+    display: inline;
+}
+
+.menu.blue a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu.blue a:hover {
+    background-color: #0000CD; /* Màu xanh nhạt khi hover */
+}

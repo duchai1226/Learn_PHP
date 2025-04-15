@@ -1,0 +1,30 @@
+    "1|Hoa Phong Lan|Hoa Lan|450000|lan.jpg|1|Hoa lan tượng trưng cho sự quý phái",/*
+    "2|Hoa Hồng Đỏ|Hoa Cưới|300000|hong-do.jpg|1|Hoa hồng đỏ tượng trưng cho tình yêu mãnh liệt",/*
+    "3|Hoa Cúc Vàng|Hoa Cúc|150000|cuc-vang.jpg|0|Hoa cúc vàng tượng trưng cho sự trường thọ",/*
+    "4|Hoa Ly Trắng|Hoa Ly|500000|ly-trang.jpg|1|Hoa ly trắng tượng trưng cho sự tinh khiết và cao quý",/*
+    "5|Hoa Hướng Dương|Hoa Cúc|200000|huong-duong.jpg|0|Hoa hướng dương mang lại cảm giác vui vẻ và lạc quan",/*
+    "6|Hoa Tulip Đỏ|Hoa Tulip|350000|tulip-do.jpg|1|Hoa tulip đỏ là biểu tượng của sự tươi mới và tình yêu",/*
+    "7|Hoa Cẩm Chướng|Hoa Cẩm Chướng|180000|cam-chuong.jpg|0|Hoa cẩm chướng thể hiện lòng biết ơn và tôn trọng",/*
+    "8|Hoa Sen Trắng|Hoa Sen|600000|sen-trang.jpg|1|Hoa sen trắng biểu tượng cho sự thanh cao và tinh khiết",/*
+    "9|Hoa Oải Hương|Hoa Lavender|550000|oai-huong.jpg|1|Hoa oải hương có mùi thơm dịu dàng giúp thư giãn",/*
+    "10|Hoa Bỉ Ngạn|Hoa Độc Đáo|700000|bi-ngan.jpg|0|Hoa bỉ ngạn mang ý nghĩa về sự chia ly và nhớ nhung",/*
+    "11|Hoa Cẩm Tú Cầu|Hoa Cẩm Tú Cầu|400000|cam-tu-cau.jpg|1|Hoa cẩm tú cầu thể hiện sự chân thành và lòng biết ơn",/*
+    "12|Hoa Thủy Tiên|Hoa Thủy Tiên|320000|thuy-tien.jpg|0|Hoa thủy tiên mang đến niềm hy vọng và may mắn",/*
+    "13|Hoa Mẫu Đơn|Hoa Độc Đáo|750000|mau-don.jpg|1|Hoa mẫu đơn biểu trưng cho sự giàu sang và thịnh vượng",/*
+    "14|Hoa Đào|Hoa Xuân|270000|hoa-dao.jpg|1|Hoa đào tượng trưng cho sự may mắn và khởi đầu mới",/*
+    "15|Hoa Ban Trắng|Hoa Ban|290000|hoa-ban.jpg|0|Hoa ban trắng thể hiện sự tinh khiết và lòng hiếu thảo",/*
+    "16|Hoa Tigon|Hoa Dây Leo|250000|hoa-tigon.jpg|0|Hoa tigon mang ý nghĩa của tình yêu dang dở và tiếc nuối",/*
+    "17|Hoa Mộc Lan|Hoa Độc Đáo|650000|moc-lan.jpg|1|Hoa mộc lan thể hiện sự mạnh mẽ và kiên định",/*
+    "18|Hoa Súng|Hoa Nước|330000|hoa-sung.jpg|0|Hoa súng tượng trưng cho sự bình yên và thanh tịnh",/*
+    "19|Hoa Mai Vàng|Hoa Tết|500000|mai-vang.jpg|1|Hoa mai vàng là biểu tượng của sự giàu sang và hạnh phúc",/*
+    "20|Hoa Trà My|Hoa Trà|450000|hoa-tra.jpg|0|Hoa trà my thể hiện sự tao nhã và thanh lịch",/*
+    "21|Hoa Cẩm Ly|Hoa Đẹp|480000|hoa-cam-ly.jpg|1|Hoa cẩm ly thể hiện sự tinh tế và duyên dáng",/*
+    "22|Hoa Lài|Hoa Nhỏ|220000|hoa-lai.jpg|0|Hoa lài tượng trưng cho sự trong sáng và thanh tao",/*
+    "23|Hoa Cỏ May|Hoa Đồng Nội|150000|hoa-co-may.jpg|0|Hoa cỏ may mang ý nghĩa của những ký ức nhẹ nhàng",/*
+    "24|Hoa Lan Hồ Điệp|Hoa Lan|800000|lan-ho-diep.jpg|1|Hoa lan hồ điệp thể hiện sự sang trọng và quý phái",/*
+    "25|Hoa Sữa|Hoa Đường Phố|180000|hoa-sua.jpg|0|Hoa sữa mang lại hương thơm ngọt ngào của mùa thu",/*
+    "26|Hoa Lưu Ly|Hoa Tình Yêu|290000|hoa-luu-ly.jpg|0|Hoa lưu ly thể hiện tình yêu bất diệt",/*
+    "27|Hoa Mười Giờ|Hoa Dại|100000|hoa-muoi-gio.jpg|0|Hoa mười giờ mang đến sự tươi vui và giản dị",/*
+    "28|Hoa Sim Tím|Hoa Rừng|270000|hoa-sim.jpg|0|Hoa sim tím gắn liền với những ký ức tuổi thơ",/*
+    "29|Hoa Hồng Trắng|Hoa Cưới|350000|hong-trang.jpg|1|Hoa hồng trắng tượng trưng cho sự trong sáng và thuần khiết",/*
+    "30|Hoa Hồng Xanh|Hoa Độc Đáo|900000|hong-xanh.jpg|1|Hoa hồng xanh thể hiện điều kỳ diệu và hiếm có"/*

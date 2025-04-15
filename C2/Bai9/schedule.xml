@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+    <day name="Thứ 2">
+        <period name="Môn học">
+            <slot>Lập trình mã nguồn mở</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH2</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 101</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>07:00 - 09:30</slot>
+        </period>
+    </day>
+    <day name="Thứ 3">
+        <period name="Môn học">
+            <slot>Nhập môn lập trình</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH1</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 202</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>09:45 - 12:15</slot>
+        </period>
+    </day>
+    <day name="Thứ 4">
+        <period name="Môn học">
+            <slot>Cơ sở dữ liệu</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH3</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 303</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>13:30 - 16:00</slot>
+        </period>
+    </day>
+    <day name="Thứ 5">
+        <period name="Môn học">
+            <slot>Lập trình hướng đối tượng</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH2</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 101</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>07:00 - 09:30</slot>
+        </period>
+    </day>
+    <day name="Thứ 6">
+        <period name="Môn học">
+            <slot>Thực hành lập trình hướng đối tượng</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH1</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 202</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>09:45 - 12:15</slot>
+        </period>
+    </day>
+    <day name="Thứ 7">
+        <period name="Môn học">
+            <slot>Cơ sở dữ liệu</slot>
+        </period>
+        <period name="Lớp">
+            <slot>DH21TH3</slot>
+        </period>
+        <period name="Phòng">
+            <slot>Phòng 303</slot>
+        </period>
+        <period name="Thời gian">
+            <slot>13:30 - 16:00</slot>
+        </period>
+    </day>
+    <day name="CN">
+    </day>
+</schedule>
