@@ -32,7 +32,7 @@ $schedule = new Schedule('schedule.xml');
                     <i class="fas fa-user-tie"></i>
                 </div>
                 <div class="info">
-                    <h2>Giảng viên: GV01</h2>
+                    <h2>Giảng viên: Vũ Bá Nhật Khang</h2>
                     <p>Khoa Công nghệ thông tin</p>
                 </div>
             </div>
@@ -43,7 +43,7 @@ $schedule = new Schedule('schedule.xml');
                     <h3>Lịch giảng dạy tuần</h3>
                 </div>
                 <div class="table-responsive">
-                    <?php echo $schedule->render(); ?>
+                    <?php echo $schedule->load(); ?>
                 </div>
             </div>
 

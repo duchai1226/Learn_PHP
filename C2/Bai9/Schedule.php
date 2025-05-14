@@ -1,45 +1,45 @@
 <?php
-class Schedule {
+class Schedule
+{
     private $data = [];
 
     // Constructor: Đọc dữ liệu từ file XML
-    public function __construct($xmlFile) {
+    public function __construct($xmlFile)
+    {
         $xml = simplexml_load_file($xmlFile);
         foreach ($xml->day as $day) {
-            $dayName = (string)$day['name'];
+            $dayName = (string) $day['name'];
             $this->data[$dayName] = [];
             foreach ($day->period as $period) {
-                $periodName = (string)$period['name'];
-                $this->data[$dayName][$periodName] = (string)$period->slot;
+                $periodName = (string) $period['name'];
+                $this->data[$dayName][$periodName] = (string) $period->slot;
             }
         }
     }
 
-    // Hiển thị thời khóa biểu
-    public function render() {
-        $output = '<table border="1">';
-        
-        // Header
-        $output .= '<tr><th></th>';
-        foreach (array_keys($this->data) as $day) {
-            $output .= '<th>' . $day . '</th>';
-        }
-        $output .= '<th>Ghi chú</th></tr>';
+    public function load()
+    {
+        $result = '<table border="1">';
 
-        // Rows
+        $result .= '<tr><th></th>';
+        foreach (array_keys($this->data) as $day) {
+            $result .= '<th>' . $day . '</th>';
+        }
+        $result .= '<th>Ghi chú</th></tr>';
+
         $periods = ['Môn học', 'Lớp', 'Phòng', 'Thời gian'];
         foreach ($periods as $period) {
-            $output .= '<tr>';
-            $output .= '<td>' . $period . '</td>';
+            $result .= '<tr>';
+            $result .= '<td>' . $period . '</td>';
             foreach ($this->data as $day => $info) {
-                $output .= '<td>' . ($info[$period] ?? '-') . '</td>';
+                $result .= '<td>' . ($info[$period] ?? '-') . '</td>';
             }
-            $output .= '<td></td>'; // Cột Ghi chú để trống
-            $output .= '</tr>';
+            $result .= '<td></td>';
+            $result .= '</tr>';
         }
 
-        $output .= '</table>';
-        return $output;
+        $result .= '</table>';
+        return $result;
     }
 }
 ?>

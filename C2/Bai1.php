@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hình Chữ Nhật Calculator</title>
+    <title>Bài 1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -94,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $area = $hcn->findArea();
         $perimeter = $hcn->findPerimeter();
     } else {
-        echo "Vui lòng nhập đủ tham số!";
+        echo "Nhập thiếu!";
     }
 
 }

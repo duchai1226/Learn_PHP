@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hình Chữ Nhật Calculator</title>
+    <title>Bài 2</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,7 +43,7 @@
             padding: 5px;
         }
 
-        .result-field {
+        .ketqua-field {
             background-color: #00ffff;
         }
 
@@ -72,57 +72,57 @@ class TinhToan
 
     public function Sum()
     {
-        $sum = ($this->a + $this->b) * 2;
+        $sum = $this->a + $this->b;
         return $sum;
     }
 
     public function Subtraction()
     {
-        $result = $this->a - $this->b;
-        return $result;
+        $ketqua = $this->a - $this->b;
+        return $ketqua;
     }
 
     public function Multiplication()
     {
-        $result = $this->a * $this->b;
-        return $result;
+        $ketqua = $this->a * $this->b;
+        return $ketqua;
     }
 
     public function Division()
     {
-        $result = $this->a / $this->b;
-        return $result;
+        $ketqua = $this->a / $this->b;
+        return $ketqua;
     }
 }
 $a = 0;
 $b = 0;
-$result = 0;
+$ketqua = 0;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['a'], $_POST['b'], $_POST['pheptoan']) && $_POST['a'] != "" && $_POST['b'] != "") {
         $a = $_POST['a'];
         $b = $_POST['b'];
         $pheptoan = $_POST['pheptoan'];
-        $calc = new TinhToan($a, $b);
+        $tinhtoan = new TinhToan($a, $b);
 
         switch ($pheptoan) {
             case 'cong':
-                $result = $calc->Sum();
+                $ketqua = $tinhtoan->Sum();
                 break;
             case 'tru':
-                $result = $calc->Subtraction();
+                $ketqua = $tinhtoan->Subtraction();
                 break;
             case 'nhan':
-                $result = $calc->Multiplication();
+                $ketqua = $tinhtoan->Multiplication();
                 break;
             case 'chia':
-                $result = $calc->Division();
+                $ketqua = $tinhtoan->Division();
                 break;
             default:
                 break;
         }
     } else {
-        echo "Vui lòng nhập đủ tham số!";
+        echo "Nhập thiếu!";
     }
 
 }
@@ -143,16 +143,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </tr>
                 <tr>
                     <td>Kết quả</td>
-                    <td><input type="text" id="perimeter" class="result-field" value="<?php echo $result; ?>" readonly>
+                    <td><input type="text" id="perimeter" class="ketqua-field" value="<?php echo $ketqua; ?>" readonly>
                     </td>
                 </tr>
                 </tr>
                 <tr>
                     <td colspan="2" class="button-container">
-                        <button name="pheptoan" id="calculate" value="cong">CỘNG</button>
-                        <button name="pheptoan" id="calculate" value="tru">TRỪ</button>
-                        <button name="pheptoan" id="calculate" value="nhan">NHÂN</button>
-                        <button name="pheptoan" id="calculate" value="chia">CHIA</button>
+                        <button name="pheptoan" id="tinhtoanulate" value="cong">CỘNG</button>
+                        <button name="pheptoan" id="tinhtoanulate" value="tru">TRỪ</button>
+                        <button name="pheptoan" id="tinhtoanulate" value="nhan">NHÂN</button>
+                        <button name="pheptoan" id="tinhtoanulate" value="chia">CHIA</button>
                     </td>
                 </tr>
             </table>

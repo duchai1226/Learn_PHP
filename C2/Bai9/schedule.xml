@@ -84,6 +84,4 @@
             <slot>13:30 - 16:00</slot>
         </period>
     </day>
-    <day name="CN">
-    </day>
 </schedule>
